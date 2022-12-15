@@ -1,0 +1,54 @@
+.rodape_contato {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    padding: 100px;
+    background-color: #EAF2FD;
+}
+
+.rodape_detalhes {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.rodape_faleConosco {
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.rodape_contatoInput {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-style: none;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 8px;
+    box-shadow: 0px 3px 15px -5px #464646;
+
+    font-size: 15px;
+}
+
+.rodape_contatoBotao {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border-style: none;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.rodape_contatoBotao:hover {
+    background-color: #5595E9;
+    cursor: pointer;
+}
+
+.rodape_desenvolvidoPor {
+    text-align: center;
+    line-height: 8px;
+    padding: 32px 0 32px;
+}

@@ -1,0 +1,33 @@
+.adicionar_produto {
+    background-color: #E5E5E5;
+    padding: 200px 470px 200px 470px;
+    text-align: center;
+}
+
+.input_menuAdministrador {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-style: none;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 8px;
+    box-shadow: 0px 3px 15px -5px #464646;
+
+    font-size: 12px;
+}
+
+.botao_adicionarProduto {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border-style: none;
+    box-sizing: content-box;
+
+    width: 100%;
+    padding: 16px;
+}
+
+.botao_adicionarProduto:hover {
+    background-color: #5595E9;
+    cursor: pointer;
+}

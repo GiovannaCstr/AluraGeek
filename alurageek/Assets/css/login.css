@@ -1,0 +1,41 @@
+.login {
+    background-color: #E5E5E5;
+    padding: 200px 470px 200px 470px;
+    text-align: center;
+}
+
+.login_titulo {
+    color: #464646;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login_input {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-style: none;
+
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 3px 15px -5px #464646;
+
+    font-size: 15px;
+}
+
+.login_BotaoEnviar {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border-style: none;
+    box-sizing: content-box;
+
+    width: 100%;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.login_BotaoEnviar:hover {
+    background-color: #5595E9;
+    cursor: pointer;
+}
