@@ -3,7 +3,9 @@
 
 O projeto Alura Geek é um e-commerce que foi realizado durante o Alura Challenge da escola Front End. O objetivo é praticar HTML e CSS.
 
-## projeto em Andamento
+## projeto em Andamento 🛠
+
+
 
 
 
