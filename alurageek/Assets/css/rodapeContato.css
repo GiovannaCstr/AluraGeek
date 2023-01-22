@@ -52,3 +52,26 @@
     line-height: 8px;
     padding: 32px 0 32px;
 }
+
+/*---------------Responsivo-------------------*/
+
+@media screen and (max-width: 480px){
+    .rodape_contato {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 50px 30px 40px;
+    }
+
+    .rodape_detalhes {
+        text-align: center;   
+    }
+
+    .rodape_desenvolvidoPor {
+        padding: 22px 0 22px;
+    }
+
+    .rodape_contatoInput {
+        padding: 14px;
+    }
+
+}

@@ -37,3 +37,31 @@
     background-color: #5595E9;
     cursor: pointer;
 }
+
+/*---------------------Responsivo-------------------*/
+
+@media screen and (max-width: 480px){
+    .destaque {
+        background: url(../img/banner.jpg);
+        background-size: cover;
+        padding: 60px 20px 30px 20px;
+    }
+
+    
+    .destaque_titulo {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .destaque_titulo.subtitulo {
+        font-size: 16px;
+    }
+
+    .destaque_botao {
+        height: 50px;
+        width: 115px;
+        font-size: 14px;
+    }
+    
+}
+

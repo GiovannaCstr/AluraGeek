@@ -1,9 +1,7 @@
 /* Cabecalho - Sessões*/
 .produtos {
     background-color: #E5E5E5;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
+    padding: 50px 100px 0px 100px;  
 }
 
 .produtos_cabecalho {
@@ -84,4 +82,27 @@
     color:#464646;
 }
 
-/*Pagina Produtos-home - Fim*/
+/*------------------Responsivo---------------*/
+ @media screen and (max-width: 480px) {
+    .produtos {
+        padding: 15px 20px 0px 20px;  
+    }
+
+    .produtos_cabecalho-titulo {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .produtos_cabecalho-botao {
+        font-size: 14px;
+    }
+
+    .produtos__itens {
+        flex-wrap: wrap;
+    }
+
+    .produtos___detalhes {
+        padding-bottom: 32px;
+    }
+
+ }

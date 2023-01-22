@@ -39,3 +39,16 @@
     background-color: #5595E9;
     cursor: pointer;
 }
+
+/*-------------Resposivo---------------*/
+
+@media screen and (max-width: 480px) {
+    .login {
+        padding: 100px 50px 100px 50px;
+    }
+
+    .login_BotaoEnviar {
+        width: 30%;
+    }
+
+}
