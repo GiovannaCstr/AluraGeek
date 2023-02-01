@@ -1,7 +1,6 @@
 .adicionar_produto {
     background-color: #E5E5E5;
-    padding: 200px 470px 200px 470px;
-    text-align: center;
+    padding: 100px 450px 100px 450px;
 }
 
 .input_menuAdministrador {
@@ -14,6 +13,12 @@
     box-shadow: 0px 3px 15px -5px #464646;
 
     font-size: 12px;
+}
+
+.adicionar_titulo {
+    color: #464646;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .botao_adicionarProduto {
@@ -30,4 +35,21 @@
 .botao_adicionarProduto:hover {
     background-color: #5595E9;
     cursor: pointer;
+}
+
+/*----------------------Responsivo-------------------------*/
+
+@media screen and (max-width: 480px){
+    .adicionar_produto {
+        padding: 20px 20px;
+    }    
+
+    .input_menuAdministrador {
+        width: 90%;
+    }
+
+    .botao_adicionarProduto {
+        width: 90%;
+    }
+    
 }

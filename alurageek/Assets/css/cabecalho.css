@@ -26,8 +26,6 @@
     width: 393px;
 }
 
-
-
 .cabecalho_botao {
     background-color: transparent;
     border: 1px solid #2A7AE4;
@@ -49,7 +47,7 @@
         padding: 10px 20px 10px 20px;
     }
 
-    .Cabecalho_logoAlura{
+    .cabecalho_logoAlura{
         width: 120px;
     }
 
